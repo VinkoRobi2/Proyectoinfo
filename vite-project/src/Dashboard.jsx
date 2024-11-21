@@ -13,6 +13,7 @@ const Dashboard = () => {
     setProducts(jsonData.products);
   }, []);
 
+  // Función para manejar reserva
   const handleReserve = (productId) => {
     setProducts((prevProducts) =>
       prevProducts.map((product) =>
@@ -23,6 +24,18 @@ const Dashboard = () => {
     if (reserved && !reservedProducts.includes(reserved)) {
       setReservedProducts((prev) => [...prev, reserved]);
     }
+  };
+
+  // Función para manejar quitar reserva
+  const handleRemoveReserve = (productId) => {
+    setProducts((prevProducts) =>
+      prevProducts.map((product) =>
+        product.id === productId ? { ...product, reserved: false } : product
+      )
+    );
+    setReservedProducts((prev) =>
+      prev.filter((product) => product.id !== productId)
+    );
   };
 
   return (
@@ -39,15 +52,15 @@ const Dashboard = () => {
             <Link to="/mis-reservas" className="r">Mis Reservas</Link>
           </li>
           <li>
-  <Link to="/logs" className="log">Logs</Link>
-</li>
+            <Link to="/logs" className="log">Logs</Link>
+          </li>
         </ul>
       </div>
 
       <div className="main-content">
         <div className="header">
           <div className="user-info">
-            <p className="user-name">{user?.name}  items:De 8vo a bachillerato</p>
+            <p className="user-name">{user?.name} items: De 8vo a bachillerato</p>
             <p className="user-role">{user?.role}</p>
           </div>
         </div>
@@ -67,6 +80,14 @@ const Dashboard = () => {
                   onClick={() => handleReserve(product.id)}
                 >
                   Reservar
+                </button>
+              )}
+              {product.reserved && (
+                <button
+                  className="reserve-btn cancel-btn"
+                  onClick={() => handleRemoveReserve(product.id)}
+                >
+                  Quitar Reserva
                 </button>
               )}
             </div>

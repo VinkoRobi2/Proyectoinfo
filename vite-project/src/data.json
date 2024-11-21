@@ -15,12 +15,28 @@
       "id": 2,
       "name": "iPad Pro 12.9",
       "category": "iPad",
-      "stock": 15,
-      "price": 599,
-      "reserved": true
+      "stock": 18,
+      "price": 1199,
+      "reserved": false
     },
     {
       "id": 3,
+      "name": "Audífonos Inalámbricos",
+      "category": "Audífonos",
+      "stock": 50,
+      "price": 49,
+      "reserved": false
+    },
+    {
+      "id": 4,
+      "name": "Audífonos con Cable",
+      "category": "Audífonos",
+      "stock": 75,
+      "price": 29,
+      "reserved": true
+    },
+    {
+      "id": 5,
       "name": "HP Spectre x360",
       "category": "Laptop HP",
       "stock": 30,
@@ -28,51 +44,35 @@
       "reserved": true
     },
     {
-      "id": 4,
-      "name": "HP Spectre x360",
+      "id": 6,
+      "name": "HP EliteBook 840",
       "category": "Laptop HP",
       "stock": 20,
-      "price": 799,
-      "reserved": true
-    },
-    {
-      "id": 5,
-      "name": "iPad Pro 12.9",
-      "category": "iPad",
-      "stock": 50,
-      "price": 1199,
-      "reserved": false
-    },
-    {
-      "id": 6,
-      "name": "iPad Pro 12.9",
-      "category": "iPad",
-      "stock": 40,
       "price": 999,
       "reserved": false
     },
     {
       "id": 7,
-      "name": "HP Spectre x360",
+      "name": "HP Pavilion 15",
       "category": "Laptop HP",
-      "stock": 22,
-      "price": 899,
-      "reserved": false
+      "stock": 40,
+      "price": 799,
+      "reserved": true
     },
     {
       "id": 8,
-      "name": "HP Spectre x360",
-      "category": "Laptop HP",
-      "stock": 12,
-      "price": 649,
+      "name": "Audífonos Over-Ear",
+      "category": "Audífonos",
+      "stock": 100,
+      "price": 79,
       "reserved": false
     },
     {
       "id": 9,
-      "name": "iPad Pro 12.9",
-      "category": "iPad",
-      "stock": 18,
-      "price": 649,
+      "name": "Audífonos Bluetooth Básicos",
+      "category": "Audífonos",
+      "stock": 120,
+      "price": 39,
       "reserved": true
     },
     {
@@ -80,24 +80,88 @@
       "name": "iPad Pro 12.9",
       "category": "iPad",
       "stock": 30,
-      "price": 899,
+      "price": 1099,
       "reserved": true
     },
     {
       "id": 11,
-      "name": "iPad Pro 12.9",
-      "category": "iPad",
-      "stock": 25,
-      "price": 1099,
+      "name": "HP Omen 16",
+      "category": "Laptop HP",
+      "stock": 15,
+      "price": 1499,
       "reserved": false
     },
     {
       "id": 12,
+      "name": "HP Envy x360",
+      "category": "Laptop HP",
+      "stock": 25,
+      "price": 1099,
+      "reserved": true
+    },
+    {
+      "id": 13,
+      "name": "Audífonos Deportivos",
+      "category": "Audífonos",
+      "stock": 80,
+      "price": 59,
+      "reserved": false
+    },
+    {
+      "id": 14,
+      "name": "Audífonos de Estudio",
+      "category": "Audífonos",
+      "stock": 60,
+      "price": 99,
+      "reserved": true
+    },
+    {
+      "id": 15,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 18,
+      "price": 1299,
+      "reserved": false
+    },
+    {
+      "id": 16,
+      "name": "HP ZBook Studio",
+      "category": "Laptop HP",
+      "stock": 12,
+      "price": 1999,
+      "reserved": true
+    },
+    {
+      "id": 17,
+      "name": "HP ProBook 450",
+      "category": "Laptop HP",
+      "stock": 45,
+      "price": 749,
+      "reserved": false
+    },
+    {
+      "id": 18,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 10,
+      "price": 1099,
+      "reserved": true
+    },
+    {
+      "id": 19,
+      "name": "Audífonos Inalámbricos",
+      "category": "Audífonos",
+      "stock": 55,
+      "price": 49,
+      "reserved": true
+    },
+    {
+      "id": 20,
       "name": "HP Spectre x360",
       "category": "Laptop HP",
-      "stock": 18,
-      "price": 799,
-      "reserved": true
+      "stock": 8,
+      "price": 1299,
+      "reserved": false
     }
   ]
 }

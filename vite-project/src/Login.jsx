@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; 
+import { useEffect } from "react";
 import descarga from './assets/descarga.png'
 import './Login.css'
 
@@ -38,7 +39,6 @@ const Login = () => {
             alt="Icono de bienvenida"
             className="welcome-image"
           />
-          <h1>Bienvenido</h1>
         </div>
         <p>Por favor, inicia sesión</p>
         {error && <div className="error">{error}</div>}

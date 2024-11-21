@@ -3,7 +3,6 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-/* Fondo específico solo para la página de login */
 body.login-page {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   display: flex;
@@ -93,4 +92,16 @@ body.login-page {
 
 .register-link a:hover {
   text-decoration: underline;
+}
+.welcome-image{
+  height: 200px;
+  margin-left: 20px;
+  width: 200px;
+}
+.cancel-btn {
+  background-color: #e74c3c; /* Rojo */
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b; /* Rojo más oscuro */
 }
