@@ -1,0 +1,103 @@
+{
+  "user": {
+    "name": "Admin"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 25,
+      "price": 1099,
+      "reserved": true
+    },
+    {
+      "id": 2,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 15,
+      "price": 599,
+      "reserved": true
+    },
+    {
+      "id": 3,
+      "name": "HP Spectre x360",
+      "category": "Laptop HP",
+      "stock": 30,
+      "price": 1299,
+      "reserved": true
+    },
+    {
+      "id": 4,
+      "name": "HP Spectre x360",
+      "category": "Laptop HP",
+      "stock": 20,
+      "price": 799,
+      "reserved": true
+    },
+    {
+      "id": 5,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 50,
+      "price": 1199,
+      "reserved": false
+    },
+    {
+      "id": 6,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 40,
+      "price": 999,
+      "reserved": false
+    },
+    {
+      "id": 7,
+      "name": "HP Spectre x360",
+      "category": "Laptop HP",
+      "stock": 22,
+      "price": 899,
+      "reserved": false
+    },
+    {
+      "id": 8,
+      "name": "HP Spectre x360",
+      "category": "Laptop HP",
+      "stock": 12,
+      "price": 649,
+      "reserved": false
+    },
+    {
+      "id": 9,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 18,
+      "price": 649,
+      "reserved": true
+    },
+    {
+      "id": 10,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 30,
+      "price": 899,
+      "reserved": true
+    },
+    {
+      "id": 11,
+      "name": "iPad Pro 12.9",
+      "category": "iPad",
+      "stock": 25,
+      "price": 1099,
+      "reserved": false
+    },
+    {
+      "id": 12,
+      "name": "HP Spectre x360",
+      "category": "Laptop HP",
+      "stock": 18,
+      "price": 799,
+      "reserved": true
+    }
+  ]
+}

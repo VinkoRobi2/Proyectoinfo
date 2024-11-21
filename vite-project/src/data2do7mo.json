@@ -1,0 +1,51 @@
+{
+    "user": {
+      "name": "Admin",
+      "role": "Administrador"
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": true
+      },
+      {
+        "id": 2,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": false
+      },
+      {
+        "id": 3,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": true
+      },
+      {
+        "id": 4,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": false
+      },
+      {
+        "id": 5,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": true
+      },
+      {
+        "id": 6,
+        "name": "Carrito de iPads - iPad Pro 12.9",
+        "category": "iPad",
+        "stock": 20,
+        "reserved": false
+      }
+    ]
+  }
+  
